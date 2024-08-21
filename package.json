@@ -1,0 +1,17 @@
+{
+  "name": "beejs-project",
+  "private": true,
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "@bee.js/node": "*"
+  },
+  "scripts": {
+    "dev": "nodemon  app.js --dev",
+    "test": "nodemon app.js --dev --test",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "",
+  "description": ""
+}
